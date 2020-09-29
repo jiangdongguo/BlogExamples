@@ -1,2 +1,6 @@
 rootProject.name='BlogExamples'
 include ':app'
+include ':ExampleRetrofit2'
+include ':ExampleRxJava2'
+include ':ExampleArouter'
+include ':ExampleJetpack'

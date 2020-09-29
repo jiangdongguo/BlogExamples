@@ -9,6 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ExampleArouter" />
+            <option value="$PROJECT_DIR$/ExampleJetpack" />
+            <option value="$PROJECT_DIR$/ExampleRetrofit2" />
+            <option value="$PROJECT_DIR$/ExampleRxJava2" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

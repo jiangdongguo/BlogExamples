@@ -84,10 +84,8 @@ class WanViewModel : ViewModel() {
             .flatMap {
                 if (! it.isSuccessFull()) {
                     Log.e(TAG, "register failed code=${it.errorCode}, msg=${it.errorMsg}")
-                    Observable.just(it)
-                } else {
-                    WanRepository.loginAccount(userName, password)
                 }
+                WanRepository.loginAccount(userName, password)
             }.subscribe({ loginRsp->
                 Log.e(TAG, "login status code=${loginRsp.errorCode}, msg=${loginRsp.errorMsg}")
                 mLoginLiveData.postValue(loginRsp.isSuccessFull())

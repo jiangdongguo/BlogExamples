@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T09:13:34.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="oMfS5G2NuBbxC2hhswIF" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T10:09:14.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="1mUw2JYCxuItsHLZC8J6" version="14.0.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry x="375" y="350" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-21" value="Downloader" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="80" width="100" height="940" as="geometry" />
+          <mxGeometry x="800" y="80" width="100" height="1250" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
           <mxGeometry x="45" y="360" width="10" height="230" as="geometry" />
@@ -118,19 +118,89 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
-          <mxGeometry x="45" y="620" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="620" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="50" y="700" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-54" value="runTaskReally" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="340mYaO9IpBE8lrV25eJ-53" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-55" value="使用OkHttp发起网络请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="730" as="sourcePoint" />
+            <mxPoint x="370" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="50" y="810" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-60" value="&lt;span style=&quot;font-size: 12px ; text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;dealOnResponse&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="340mYaO9IpBE8lrV25eJ-59" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="790" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-61" value="sendMessage" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="970" as="sourcePoint" />
+            <mxPoint x="289.5" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="45" y="1040" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="50" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-70" value="saveFile" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="340mYaO9IpBE8lrV25eJ-69" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="0.0769" relative="1" as="geometry">
+            <mxPoint x="55" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="820" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-21">
+          <mxGeometry x="50" y="905" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-80" value="onDownloadComplete" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="340mYaO9IpBE8lrV25eJ-21" target="340mYaO9IpBE8lrV25eJ-79">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="120" y="940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-23" value="创建新的下载任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="440" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-25" value="DownloadHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="80" width="100" height="940" as="geometry" />
+          <mxGeometry x="1040" y="80" width="100" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-25">
           <mxGeometry x="45" y="360" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-25">
           <mxGeometry x="45" y="540" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-57" value="onResponse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="340mYaO9IpBE8lrV25eJ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="760" as="sourcePoint" />
+            <mxPoint x="-180" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-25">
+          <mxGeometry x="45" y="970" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="340mYaO9IpBE8lrV25eJ-25">
+          <mxGeometry x="45" y="860" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-28" value="&lt;br&gt;发送MSG_NEW_TASK消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="435" width="160" height="30" as="geometry" />
@@ -164,6 +234,58 @@
         </mxCell>
         <mxCell id="340mYaO9IpBE8lrV25eJ-48" value="dealRunTaskIfNeed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="680" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-50" value="遍历等待队列&lt;br&gt;从等待队列中获取新的任务&lt;br&gt;mRunningTasks.put(task.url, task)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="705" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-56" value="Server" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-62" value="发送消息&lt;br&gt;MSG_DEAL_RESPONSE_SUCCESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1050" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-64" value="" style="endArrow=oval;startArrow=classic;endFill=1;startFill=1;endSize=8;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="849.5" y="1120" as="sourcePoint" />
+            <mxPoint x="1080" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-65" value="dealOnDownloadSuccess" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-67" value="不断重复这个过程&lt;br&gt;直到等待队列为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="927.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-68" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="900" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-71" value="MSG_DOWNLOAD_COMPLETE" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="340mYaO9IpBE8lrV25eJ-69" target="340mYaO9IpBE8lrV25eJ-25">
+          <mxGeometry x="-0.0414" width="60" relative="1" as="geometry">
+            <mxPoint x="860" y="930" as="sourcePoint" />
+            <mxPoint x="920" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="940" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-72" value="保存资源包到本地" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="890" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-74" value="" style="endArrow=oval;startArrow=classic;endFill=1;startFill=1;endSize=8;html=1;exitX=0.9;exitY=0.778;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="340mYaO9IpBE8lrV25eJ-49">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="860" y="980" as="sourcePoint" />
+            <mxPoint x="1080" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-77" value="dealOnDownloadComplete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="957.5" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="340mYaO9IpBE8lrV25eJ-79" value="PackageDownloadListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="80" width="155" height="1260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

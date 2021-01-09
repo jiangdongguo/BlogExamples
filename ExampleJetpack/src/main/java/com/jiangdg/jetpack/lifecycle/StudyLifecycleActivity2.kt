@@ -1,7 +1,12 @@
 package com.jiangdg.jetpack.lifecycle
 
+import android.app.Activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.LifecycleRegistry
+import androidx.lifecycle.ReportFragment
 import com.jiangdg.jetpack.lifecycle.observer.MyLifecycleObserver01
 import com.jiangdg.jetpack.lifecycle.observer.MyLifecycleObserver02
 import com.jiangdg.jetpack.lifecycle.observer.MyLifecycleObserver03
@@ -9,12 +14,19 @@ import com.jiangdg.jetpack.lifecycle.observer.MyLifecycleObserver03
 /**
  * author: jiangdg
  * date: 2020/11/3 4:42 PM
- * description: AppCompatActivity中使用Lifecycle组件
+ * description: Activity中使用Lifecycle组件
  */
-class StudyLifecycleActivity: AppCompatActivity() {
+class StudyLifecycleActivity2: Activity(), LifecycleOwner {
+
+    private val mLifecycleRegistry = LifecycleRegistry(this)
+
+    override fun getLifecycle(): Lifecycle = mLifecycleRegistry
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        ReportFragment.injectIfNeededIn(this)
+
         addLifecycleObserver()
     }
 
